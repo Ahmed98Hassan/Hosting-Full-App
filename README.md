@@ -70,3 +70,5 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+## link the deployed working front end
+http://ahmed98.s3-website-us-west-2.amazonaws.com
