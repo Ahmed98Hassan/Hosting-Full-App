@@ -70,6 +70,30 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+_________________________________________________________________________________________________________________________________________________________
+
+### Hosting a Full Stack Application
+- This is a project submitted by Ahmed Hassan for the Udacity platform, and it is hosting an entire website on the platform [AWS]
+
+## For this project to work, you need:-
+- front-end
+1- npm install , 2-npm run build , 3- npm run start {Ensure the correct path to the start script}
+- backe-end 
+1- npm install , 2- npm run build , 3- npm run start {Ensure the correct path to the start script}
+
+# to deploy in aws :- push you code to git hub and circleci will deploy to aws
+
+# in aws we use :
+- s3 bucket called [ahmed98]
+- database [RDS] called [database-2] end point [database-2.c6v8alnp9euf.us-east-1.rds.amazonaws.com] pass [wwwmffcc]
+- Elastic Beanstalk - Application name[udagram-api] - Environments [udagram-api-dev]
+
+# circleci :- steps 
+- after push code to gethub 
+- circleci see the project and then [install-dependencies]- [build-project]- [deploy-to-aws]
+
+
+
 
 ## link the deployed working front-end
 http://ahmed98.s3-website-us-west-2.amazonaws.com
